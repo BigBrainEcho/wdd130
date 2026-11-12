@@ -1,0 +1,32 @@
+body {
+    background-color: cyan;
+}
+section {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 200px;
+    gap: 15px
+}
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding: 15px;
+}
+footer {
+    padding: 15px;
+    text-align: center;
+}
+header img {
+    display: inline;
+    width: 100px;
+}
+img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+}
+#cat-tongue {
+    grid-column: 2/3;
+}
+#cat-fbi {
+    grid-column: 3/4;
+}

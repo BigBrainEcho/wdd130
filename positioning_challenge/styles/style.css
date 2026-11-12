@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    background-color: #efefef;
+}
+main {
+    display: grid;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 1fr 50px;
+
+    background-color: #ffffff;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #bebebe;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+#profile_section {
+    font-weight: 800;
+    color: #646464;
+}
+#misc_section {
+    justify-content: right;
+}
+#misc_section p {
+    color: #dedede;
+    font-weight: 400;
+}
+#social {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+#social i:nth-of-type(3){
+    margin-right: 4px;
+}
+#likes {
+    justify-content: right;
+    font-weight: 800;
+}
+#likes i {
+    font-size: 1.3em;
+    margin-left: 4px;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    margin: 25px 10px 25px 15px;
+    object-fit: cover;
+
+    border-radius: 100%;
+}
+.content {
+    width: 100%;
+    max-width: 500px;
+    grid-column: 1/-1;
+}
+
+
+i {
+    color: #bebebe;
+    margin: 12px;
+}
+.profile:hover, i:hover {
+    cursor: pointer;
+}
+p {
+    display: inline;
+}

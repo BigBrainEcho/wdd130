@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+}
+.bordered {
+    background-color: aliceblue;
+    border: solid 2px black;
+    margin: 30px;
+    padding: 20px;
+    width: 500px;
+    box-sizing: border-box;
+}
+.red {
+    color: red;
+    padding-top: 50px;
+    button {
+        color: red;
+    }
+}
+.hoverer:hover {
+    color: blue;
+}
+span {
+    background-color: purple;
+}
+img {
+    padding: auto;
+}

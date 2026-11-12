@@ -1,0 +1,23 @@
+th{
+    width: 100px;
+    height: 100px;
+}
+button{
+    width: 96px;
+    height: 96px;
+}
+.on{
+    color: greenyellow;
+}
+.off{
+    color: red;
+}
+#beginning{
+    color: chocolate;
+}
+.blueberry{
+    color: blue;
+}
+h2{
+    color: brown;
+}
