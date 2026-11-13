@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
 :root {
   /* Core palette: change these values to update the entire style board. */
   --primary-color: #D32921;
   --primary-bright: #3b86ff;
-  --secondary-color: #000000;
+  --secondary-color: #383838;
   --accent1-color: #EEF0F2;
   --accent2-color: #748386;
   --surface-color: #EEF0F2;
   --ink-color: #FFFFFF;
-  --muted-color: #bec9d3;
+  --muted-color: #8d969e;
   --line-color: #d1d9df;
   --soft-blue: #e9f1fb;
-  --heading-font: "Carter One", system-ui;
-  --paragraph-font: "Courier Prime", monospace;;
+  --heading-font: "National Park", sans-serif;
+  --paragraph-font: "National Park", sans-serif;
   --display-weight: 900;
   --headline-color-on-white: var(--primary-color);
-  --headline-color-on-color: var(--surface-color);
-  --paragraph-color-on-white: var(--ink-color);
-  --paragraph-color-on-color: var(--surface-color);
+  --headline-color-on-color: black;
+  --paragraph-color-on-white: black;
+  --paragraph-color-on-color: white;
   --paragraph-background-color: var(--primary-color);
   --nav-link-color: var(--primary-color);
-  --nav-background-color: var(--surface-color);
+  --nav-background-color: #fddede;
   --nav-hover-link-color: var(--surface-color);
   --nav-hover-background-color: var(--primary-bright);
   --radius: 8px;
